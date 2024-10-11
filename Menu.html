@@ -251,10 +251,39 @@
             text-decoration: none;
         }
 
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(245, 155, 20);
+            height: 30px;
+        }
+        nav li {
+            margin-right: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #000;
+        }
+        nav a:hover {
+            color: #a2a2a2;
+        }
+
     </style>
 </head>
 <body style="margin: 0;">
     <h1>Menu</h1>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+        </ul>
+    </nav>
+    <br>
     <br>
     <br>
     <br>
@@ -658,10 +687,38 @@
         <br>
         <br>
         <br>
-        <h4>
-            @2024 Food_and_Taste. All rights reserved.
-            Contact Us: +9999999999 | Email : ushdjhjsjdh@gmail.com
-        </h4>
+        <footer style="background-color: #ff8113; color: white; padding: 20px; text-align: center;">
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+        
+                
+                <div>
+                    <h3>Contact Us</h3>
+                    <p>Phone: +9999999999</p>
+                    <p>Email: ushdjhjsjdh@gmail.com</p>
+                    <p>Address: 123, Food Street, Cityname, Country</p>
+                </div>
+        
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul style="list-style-type: none; padding: 0;">
+                        <li><a href="Home.html" style="color: white; text-decoration: none;">Home</a></li>
+                        <li><a href="About.html" style="color: white; text-decoration: none;">About Us</a></li>
+                        <li><a href="Menu.html" style="color: white; text-decoration: none;">Menu</a></li>
+                        <li><a href="Contact.html" style="color: white; text-decoration: none;">Contact</a></li>
+                    </ul>
+                </div>
+        
+     
+                <div>
+                    <h3>Follow Us</h3>
+                    <a href="https://facebook.com" target="_blank" style="color: white; text-decoration: none; margin-right: 10px;">Facebook</a>
+                    <a href="https://twitter.com" target="_blank" style="color: white; text-decoration: none; margin-right: 10px;">Twitter</a>
+                    <a href="https://instagram.com" target="_blank" style="color: white; text-decoration: none;">Instagram</a>
+                </div>
+            </div>
+            <hr style="border: 1px solid white; margin-top: 20px;">
+            <p>&copy; 2024 Food_and_Taste. All rights reserved.</p>
+        </footer>
         <div id="myModal" class="modal">
             <div class="modal-content">
                 <span class="close" onclick="closeModal()">&times;</span>
